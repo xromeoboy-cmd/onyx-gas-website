@@ -1,0 +1,17 @@
+{
+  "name": "onyx-gas-website",
+  "version": "1.0.0",
+  "description": "Onyx Gas - Professional Gas & Plumbing Services",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "mongoose": "^8.0.0",
+    "stripe": "^14.10.0",
+    "@paypal/checkout-server-sdk": "^1.0.3",
+    "nodemailer": "^6.9.7",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
