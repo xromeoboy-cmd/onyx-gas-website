@@ -213,7 +213,8 @@
 
     <script>
         const API_URL = window.location.origin + '/api';
-        const STRIPE_PUBLIC_KEY = 'pk_test_YOUR_STRIPE_PUBLISHABLE_KEY'; // UPDATE THIS
+        const STRIPE_PUBLIC_KEY = STRIPE_PUBLIC_KEY = ''; // Stripe disabled for now
+```
         
         const stripe = Stripe(STRIPE_PUBLIC_KEY);
         const elements = stripe.elements();
